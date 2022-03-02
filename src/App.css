@@ -1,0 +1,23 @@
+.App {
+  @apply w-[430px] p-9 rounded-xl bg-slate-400;
+}
+
+.App .label {
+  @apply rounded-lg bg-[#b0b788] h-20 flex items-center justify-end font-medium text-3xl px-3 mb-3;
+}
+
+.App .keypad {
+  @apply grid grid-cols-4 grid-rows-5 gap-3;
+}
+
+.App .keypad .num-keys-section {
+  @apply col-start-1 row-start-2 col-span-3 row-span-4 grid grid-cols-3 gap-3;
+}
+
+.App .keypad button {
+  @apply rounded-md text-white text-xl font-medium;
+
+}
+.App .keypad button:active {
+  @apply opacity-70;
+}
